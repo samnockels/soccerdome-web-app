@@ -1,0 +1,177 @@
+/*--Generic Page Style--*/
+
+#main{
+
+    position: relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+#main.book{
+    height: 1000px;  margin-bottom: 50px;
+}
+#back_button{
+    position: absolute;
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #686868;
+    border-top-left-radius: 10px;
+}
+
+/*--index.php--*/
+
+#memberBox{
+    position: absolute;
+    float: left;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: auto;
+    background-color: #fb6a57;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+#bookBox{
+    position: absolute;
+    float: right;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: auto;
+    background-color: #118C4E;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+/*--admin.php--*/
+
+#matches{
+    
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+.started{
+    
+    background-color: darkseagreen;
+    
+}
+.not-started{
+    
+    background-color: indianred;
+    
+}
+.full-time{
+    
+    background-color: dodgerblue;
+    
+}
+#bookings{
+    
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+
+/*--book.php--*/
+
+
+#wrap{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+#pitches{
+    position: static;
+    width: 100%;
+    height: 290px;
+    padding: 20px;
+}
+.pitch{
+    
+    width: 60px;
+    height: 105px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 18px;
+    margin-top: 30px;
+    float: left;
+    
+    
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+.available{
+    background-color: green;
+}
+.available:hover{
+    background-color: darkgreen;
+}
+.booked{
+    background-color: darkred;
+}
+.booked:hover{
+    background-color: indianred;
+}
+.booked p{
+    color: white;
+}
+.league_match{
+    background-color: #f0a400;
+}
+.league_match:hover{
+    background-color: #ce8e02;
+}
+.selected_up{
+    margin-top: 20px;
+}
+.selected_down{
+    margin-top: 40px;
+}
+#date{
+    position: static;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: #ebebeb;
+}
+#time{
+    position: static;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: #d9d9d9;
+}
+#pitch_details{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #232d36;
+}
+#slot_info{
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
